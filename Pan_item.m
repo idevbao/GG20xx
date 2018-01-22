@@ -20,8 +20,8 @@
         CGFloat y = arc4random_uniform(self.Height_Scene- 80);
         self.Location_obj = CGPointMake(x, y);
         self.View_obj.center = CGPointMake(self.Location_obj.x + 40, self.Location_obj.y + 40);
-        
     }
+    
     return self;
 }
 -(void)locationObjectAndItem_Quantity:(int)_quantity

@@ -36,7 +36,6 @@
                             and_Scene:(Scene_VC*)_scene
                              View_Map:(UIView*)viewMap{
     for (int i = 0; i<_quantity; i ++) {
-        
         NSString * user_name = [NSString stringWithFormat:@"User_%d",i];
         _objGG = [[User alloc] init_Object_NameObj:user_name
                                           own_View:[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"hodie.png"]]

@@ -25,9 +25,9 @@
     for (int i = 0; i<_quantity; i ++) {
         NSString * mapName = [NSString stringWithFormat:@"map_%d",i];
         //        int y = arc4random_uniform(3);
-        NSString *map = [NSString stringWithFormat:@"maps.png"];
+        NSString *map_img = [NSString stringWithFormat:@"maps.png"];
         _objGG = [[Map alloc] init_Object_NameObj:mapName
-                                         own_View:[[UIImageView alloc]initWithImage:[UIImage imageNamed:map]]
+                                         own_View:[[UIImageView alloc]initWithImage:[UIImage imageNamed:map_img]]
                                        with_Scene:_scene];
         
         [_scene add_Object_toSecen:_objGG];
