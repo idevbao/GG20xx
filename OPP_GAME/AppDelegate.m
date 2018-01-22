@@ -1,12 +1,15 @@
-//
+
+
 //  AppDelegate.m
-//  OPP_GAME
+
 //
-//  Created by Trúc Phương >_< on 22/01/2018.
-//  Copyright © 2018 iDev Bao. All rights reserved.
+//  Created by Trúc Phương >_< on 01/01/2018.
+//  Copyright © 2017 iDev Bao. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "CGUI.h"
+
 
 @interface AppDelegate ()
 
@@ -17,7 +20,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    CGUI* coreGUI = [[CGUI alloc]initCGUI:self.window ];
+    
+    [coreGUI RunApp];
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
+    
+    
+    
 }
 
 
