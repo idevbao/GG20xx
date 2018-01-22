@@ -20,7 +20,6 @@
 		4A2A5F2D2015F24D0056A470 /* Armored_item.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A5F2C2015F24D0056A470 /* Armored_item.m */; };
 		4A2A5F302015F28B0056A470 /* HeadGear_item.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A5F2F2015F28B0056A470 /* HeadGear_item.m */; };
 		4A2A5F332015F2C00056A470 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A5F322015F2C00056A470 /* Map.m */; };
-		4A2A5F362015F30A0056A470 /* Pan_item.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A5F352015F30A0056A470 /* Pan_item.m */; };
 		4A2A5F3D2015F41C0056A470 /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A5F3C2015F41C0056A470 /* maps.png */; };
 		4A2A5F472015F4600056A470 /* armored_item_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A5F3E2015F4600056A470 /* armored_item_0.png */; };
 		4A2A5F482015F4600056A470 /* armored_item_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A5F3F2015F4600056A470 /* armored_item_1.png */; };
@@ -33,6 +32,7 @@
 		4A2A5F4F2015F4600056A470 /* pan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A5F462015F4600056A470 /* pan.png */; };
 		4A2A5F522015F48D0056A470 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A5F502015F48D0056A470 /* left.png */; };
 		4A2A5F532015F48D0056A470 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A5F512015F48D0056A470 /* right.png */; };
+		4ABFACAD2015FDF4003B36E3 /* Pan_item.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFACAC2015FDF4003B36E3 /* Pan_item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,8 +60,6 @@
 		4A2A5F2F2015F28B0056A470 /* HeadGear_item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadGear_item.m; sourceTree = "<group>"; };
 		4A2A5F312015F2C00056A470 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
 		4A2A5F322015F2C00056A470 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
-		4A2A5F342015F30A0056A470 /* Pan_item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pan_item.h; path = ../Pan_item.h; sourceTree = "<group>"; };
-		4A2A5F352015F30A0056A470 /* Pan_item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pan_item.m; path = ../Pan_item.m; sourceTree = "<group>"; };
 		4A2A5F3C2015F41C0056A470 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
 		4A2A5F3E2015F4600056A470 /* armored_item_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = armored_item_0.png; sourceTree = "<group>"; };
 		4A2A5F3F2015F4600056A470 /* armored_item_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = armored_item_1.png; sourceTree = "<group>"; };
@@ -74,6 +72,8 @@
 		4A2A5F462015F4600056A470 /* pan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pan.png; sourceTree = "<group>"; };
 		4A2A5F502015F48D0056A470 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
 		4A2A5F512015F48D0056A470 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		4ABFACAB2015FDF4003B36E3 /* Pan_item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pan_item.h; sourceTree = "<group>"; };
+		4ABFACAC2015FDF4003B36E3 /* Pan_item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pan_item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,11 +156,11 @@
 			isa = PBXGroup;
 			children = (
 				4A2A5F2B2015F24D0056A470 /* Armored_item.h */,
+				4ABFACAB2015FDF4003B36E3 /* Pan_item.h */,
+				4ABFACAC2015FDF4003B36E3 /* Pan_item.m */,
 				4A2A5F2C2015F24D0056A470 /* Armored_item.m */,
 				4A2A5F2E2015F28B0056A470 /* HeadGear_item.h */,
 				4A2A5F2F2015F28B0056A470 /* HeadGear_item.m */,
-				4A2A5F342015F30A0056A470 /* Pan_item.h */,
-				4A2A5F352015F30A0056A470 /* Pan_item.m */,
 			);
 			name = item;
 			sourceTree = "<group>";
@@ -279,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A2A5F362015F30A0056A470 /* Pan_item.m in Sources */,
+				4ABFACAD2015FDF4003B36E3 /* Pan_item.m in Sources */,
 				4A2A5F302015F28B0056A470 /* HeadGear_item.m in Sources */,
 				4A2A5F272015F1B50056A470 /* MainGameGunFire2018.m in Sources */,
 				4A2A5F2D2015F24D0056A470 /* Armored_item.m in Sources */,
@@ -446,6 +446,7 @@
 				4A2A5F1B2015EFC80056A470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
