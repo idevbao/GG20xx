@@ -2,7 +2,7 @@
 //  MainGameGunFire2018.m
 //  Opp_Game_GUN
 //
-//  Created by Trúc Phương >_< on 13/01/2018.
+//  Created by Trúc Phương >_< on 1/01/2018.
 //  Copyright © 2018 iDev Bao. All rights reserved.
 //
 
